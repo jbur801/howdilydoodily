@@ -17,6 +17,3 @@ frontend:
     baseDirectory: how-do/build
     files:
       - '**/*'
-  cache:
-    paths:
-      - node_modules/**/*
