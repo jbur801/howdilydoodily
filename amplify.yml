@@ -10,6 +10,7 @@ frontend:
     preBuild:
       commands:
         - cd how-do
+        - yarn install --frozen-lockfile
     build:
       commands:
         - yarn build
