@@ -10,7 +10,7 @@ frontend:
     preBuild:
       commands:
         - cd how-do
-        - yarn install --frozen-lockfile
+        - yarn install --immutable --immutable-cache --check-cache
     build:
       commands:
         - yarn build
